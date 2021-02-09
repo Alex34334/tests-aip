@@ -88,6 +88,10 @@ def task_6(lst):
         Переменная lst - ваш список.
         Финальное значение должно быть помещено в переменную res.
         """
+    q = set(q)
+q = list(q)
+q.sort()
+q = tuple(q)
 
     return res
 
