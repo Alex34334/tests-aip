@@ -91,7 +91,7 @@ def task_6(lst):
         """
     lst = set(lst)
     lst = list(lst)
-    lst.sort()
+    lst.sort(reverse=True)
     lst = tuple(lst)
 
     return q
