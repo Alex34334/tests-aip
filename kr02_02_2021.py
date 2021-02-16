@@ -8,7 +8,8 @@ def task_1(two_dim_words):
     w = []
     for i in two_dim_words:
         w += i
-    w.sort(key=len)
+    w.sort()
+    w.sort(key=len,reverse=True)
     
     return w
 
